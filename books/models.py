@@ -2,9 +2,7 @@ from django.db import models
 from django.utils import timezone
 from django.urls import reverse
 
-
 tz = timezone.get_default_timezone()
-
 
 
 class News(models.Model):
@@ -24,7 +22,6 @@ class News(models.Model):
     def __str__(self):
         return self.title
 
-
     class Meta:
         ordering = ['-time_create', 'title']
 
@@ -39,9 +36,9 @@ class Accidents(models.Model):
     def __str__(self):
         return self.title
 
+
 class Category(models.Model):
     name = models.CharField(max_length=100, db_index=True)
 
     def __str__(self):
         return self.name
-
