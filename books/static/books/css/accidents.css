@@ -1,0 +1,74 @@
+.info{
+width:auto;
+height:70px;
+background-color : white;
+border-radius: 15px;
+}
+
+.time{
+width:20%;
+float:right;
+text-align:center;
+font-size:55px;
+font-family: inherit;
+font-family: cursive;
+}
+
+.leftinfo{
+width:20%;
+height:100%;
+float:left;
+text-align:center;
+font-size:40px;
+font-family: inherit;
+display:grid;
+place-items: center;
+font-family: sans-serif;
+}
+
+.center{
+float:left;
+width:60%;
+height:100%;
+display:grid;
+place-items: center;
+}
+
+
+.logo{
+background-color:#964b00;
+width:30%;
+text-align:center;
+height:80%;
+margin:auto;
+border-radius:20px;
+display:grid;
+place-items: center;
+font-size:40px;
+font-family: sans-serif;
+}
+
+.all_news{
+    width:86%;
+    height: 100%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:white;
+    text-align: center;
+    }
+
+a{
+text-decoration: None;
+color:black;
+}
+
+hr{
+width:90%;
+margin:auto;
+}
+
+.timenews{
+width:20%;
+float:left;
+}

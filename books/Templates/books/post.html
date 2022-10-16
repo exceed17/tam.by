@@ -1,0 +1,48 @@
+{% extends "main page.html" %}
+
+
+{% block content %}
+<div class="main_post_main">
+    <div class="post_main">
+        <div class="title_post">
+            <h1>{{post.title}}</h1>
+            <p>Дата публикации - {{post.time_create|date:"d E Y H:i"}}</p>
+        </div>
+        <div class="post_important">
+            <h3>{{post.most_important}}</h3>
+        </div>
+        <div class="post_img">
+            <img src="{{post.photo.url}}" class="d-block w-100" style="border-radius: 10px; height:100%;"
+                 alt="...">
+        </div>
+        <div class="content_post">
+            <p>{{post.content}}</p>
+        </div>
+    </div>
+    <div class="last55_news">
+        <div class="last5_news2">
+            <div class="last5_news_info">
+                <h5 style="font-weight:900; margin-bottom:3px;">Есть что рассказать нам ? Гарантируем анонимность</h5>
+            </div>
+            <div class="last5_news_info">
+                <h5 style="font-weight:900;">Что делать, если заблокирован доступ к новостям</h5>
+            </div>
+        </div>
+
+        <div class="last5_news3">
+            <div>
+                <img src="/media/obmen.png" class="d-block w-100"
+                     style="border-radius: 10px; height:60px; margin-top:10px;"
+                     alt="...">
+            </div>
+
+        </div>
+        <div class="last5_news4">
+            <h5 style="font-weight:900;">Конвертер валют. Наш Telegram Bot</h5>
+        </div>
+    </div>
+</div>
+
+</div>
+
+{% endblock %}

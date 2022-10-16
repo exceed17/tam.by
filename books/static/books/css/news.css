@@ -1,0 +1,86 @@
+.allnews{width:86%; height: 100%; margin-left: auto;
+    margin-right: auto; background-color: white; text-align: center; border-radius: 10px;
+
+    }
+
+.allnewss{
+    width:100%;
+    border-radius: 10px;
+    margin-top:20px;
+    position:relative;
+    height:150px;
+    }
+
+.timenews{
+width:20%;
+float:left;
+}
+
+hr{
+width:90%;
+margin:auto;
+}
+
+a {text-decoration: none; color:black;}
+
+.info{
+width:auto;
+height:10vh;
+background-color : white;
+border-radius: 15px;
+}
+
+.time{
+width:20%;
+float:right;
+text-align:center;
+font-size:7vh;
+font-family: inherit;
+font-family: sans-serif;
+display:grid;
+place-items: center;
+height:100%;
+font-size:3.5vw;
+}
+
+.leftinfo{
+width:20%;
+height:100%;
+float:left;
+text-align:center;
+font-size:6vh;
+font-family: inherit;
+display:grid;
+place-items: center;
+font-family: sans-serif;
+display:grid; place-items: center;
+font-size:3vw;
+}
+
+.center{
+float:left;
+width:60%;
+height:100%;
+display:grid;
+place-items: center;
+}
+
+
+.logo{
+background-color:#9663a8;
+width:30%;
+text-align:center;
+height:80%;
+margin:auto;
+border-radius:20px;
+display:grid;
+place-items: center;
+font-size:6vh;
+font-size:3vw;
+color:white;
+font-family: serif;
+display:grid; place-items: center;
+}
+
+
+

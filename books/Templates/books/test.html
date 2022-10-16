@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="p-0 d-flex">
+    <h1>Hello</h1>
+</div>
+<div class="d-flex flex-row">
+  <div class="p-2">Flex элемент 1</div>
+  <div class="p-5">Flex элемент 2</div>
+  <div class="p-2">Flex элемент 3</div>
+</div>
+<div class="d-flex flex-row-reverse">
+  <div class="p-2">Flex элемент 1</div>
+  <div class="p-2">Flex элемент 2</div>
+  <div class="p-2">Flex элемент 3</div>
+</div>
+{{ news }}
+{% for i in news %}
+    <div class="alert">
+        <h2>{{i.title}}</h2>
+         <h4>{{i.content}}</h4>
+    </div>
+{% endfor %}
+
+</body>
+</html>

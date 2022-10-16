@@ -1,0 +1,35 @@
+
+{% extends "news.html" %}
+{% block content_name %}Политика{% endblock %}
+
+{% block title %}
+Политика
+{% endblock %}
+
+
+{% block type_news %}
+<div class="allnews">
+    {% for p in news %}
+    {% if p.cat_id == 5 %}
+    <a href="{{p.get_absolute_url}}">
+        <div class="allnewss">
+            <div style="width:20%; float:left; height:80%; margin-top:10px;">
+                <img src="{{p.photo.url}}" class="d-block w-100" style="border-radius: 10px; height:100%; width:75%;">
+            </div>
+            <div style="width:75%; float:left;">
+                <h1>{{p.title}}</h1>
+                <p style="font-size:20px;">{{p.most_important}}</p>
+                <div class="timenews">
+                    {{p.time_create|date:"d E Y H:i"}}
+                </div>
+            </div>
+        </div>
+
+    </a>
+
+    <hr>
+    {% endif %}
+    {% endfor %}
+
+</div>
+{% endblock %}
